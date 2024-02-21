@@ -264,7 +264,7 @@ body {
     flex-direction: column;
     justify-content: center;
     background: linear-gradient(180deg, #EEF7FF -16.6%, #F3FBFF 63.13%);
-    background-image: url('/images/img_symbol.png');
+    background-image: url('images/img_symbol.png');
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 350px auto;
