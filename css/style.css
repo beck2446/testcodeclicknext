@@ -1,0 +1,1994 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans Thai';
+}
+
+.layer1 {
+    background-image: url('/images/bg_zone1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.layer1 H1 {
+    font-family: 'Poppins';
+    font-size: 100px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-top: 60px;
+    padding-left: 50px;
+    letter-spacing: 5.5px;
+    line-height: 110px;
+}
+
+.layer1 H1 span {
+    font-size: 100px;
+    color: #FFFFFF;
+    font-weight: bold;
+    letter-spacing: 10.5px;
+}
+
+.layer1 h3 {
+    background: linear-gradient(90.14deg, #14DB60 -2.56%, #AAFFCB 115.32%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    font-weight: lighter;
+    padding-left: 50px;
+    letter-spacing: 5px;
+}
+
+.layer1 H2 {
+    background: linear-gradient(90.14deg, #14DB60 -2.56%, #AAFFCB 115.32%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 5px;
+    letter-spacing: 10px;
+}
+
+.layer1 .line {
+    border-radius: 2px;
+    width: 100px; 
+    height: 5px; 
+    margin-left: 350px;
+    background-color: #0CC553;
+    transform: rotate(90deg);
+}
+
+.layer1 .day {
+    font-size: 60px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-left: 50px;
+    letter-spacing: 2px;
+}
+
+.layer1 .day span {
+    font-size: 30px; 
+    color: #FFFFFF;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.layer1 .time {
+    display: inline-block;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    padding-left: 17px;
+    padding-right: 17px;
+    color: rgba(16, 7, 81, 1);
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px; 
+}
+
+.layer1 .where {
+    background: linear-gradient(90.14deg, #14DB60 -2.56%, #AAFFCB 115.32%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 200px;
+    letter-spacing: 2px;
+}
+
+.layer1 .at {
+    font-size: 26px;
+    color: #FFFFFF;
+    padding-left: 200px;
+    letter-spacing: 0;
+    font-weight: lighter;
+}
+
+.layer1 .tophead {
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 54px;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    padding-top: 36px;
+    padding-left: 50px;
+}
+
+.layer1 .content {
+    font-size: 17px;
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+    padding-top: 3px;
+    padding-left: 50px;
+    padding-right: 600px;
+    opacity: 80%;
+    font-weight: lighter;
+}
+
+.layer1 nav {
+    padding-top: 20px;
+    display: flex;
+}
+
+.layer1 .nav-logo a {
+    margin: 0 50px;
+    line-height: 100px;
+}
+
+.layer1 .nav-logo a img {
+    width: 90px;
+    height: auto;
+}
+
+.layer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(24.25deg, #0E044B 3.94%, #2C309B 67.69%, #89E8FD 128.26%),
+                linear-gradient(183.65deg, #0B0F17 -12.4%, rgba(0, 13, 56, 0) 230.51%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.layer2 H1 {
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-top: 25px;
+    letter-spacing: 4px;
+}
+
+.layer2 H1 span {
+    font-size: 20px;
+    color: rgba(186, 208, 242, 1);
+    padding-left: 5px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+}
+
+.layer2 h2 {
+    font-size: 18px;
+    color: rgba(186, 208, 242, 1);
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.layer2 .btn {
+    display: inline-block;
+    border-radius: 10px;
+    background: linear-gradient(115.71deg, #0BB64C 2.75%, #27D96B 79.77%);
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+    font-family: 'Noto Sans Thai';
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+}
+
+.layer2 .btn:hover {
+    color: gray;
+}
+
+.layer3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-top: 40px;
+    padding-left: 50px;
+    list-style: none;
+}
+
+.layer3 H1 {
+    color: #1D1A73;
+    font-weight: bold;
+    font-size: 50px; 
+    letter-spacing: 0.54px;
+}
+
+.layer3 H1 span {
+    color: rgba(20, 219, 96, 1);
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 0.54px;
+}
+
+.layer3 li {
+    position: relative;
+    color: #262E3F;
+    font-weight: lighter;
+    font-size: 20px; 
+    letter-spacing: 0.54px;
+    padding-left: 40px;
+}
+
+
+.layer3 li::before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 10px;
+    height: 10px;
+    background-color: #25DF6C;
+    transform: rotate(45deg);
+}
+
+.layer4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(180deg, #EEF7FF -16.6%, #F3FBFF 63.13%);
+    background-image: url('/images/img_symbol.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 350px auto;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+
+
+.layer4 li {
+    position: absolute;
+    font-size: 50px;
+    background: linear-gradient(111.88deg, #0E044B -24.36%, #2C309B 66.53%, #89E8FD 142.57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    letter-spacing: -0.54px;
+    line-height: 141.6px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.layer4 li::before {
+    content: '';
+    border-radius: 5px;
+    position: absolute;
+    left: 60px;
+    top: 32.5px;
+    width: 8px;
+    height: 65px;
+    background-color: #25DF6C;
+    transform: rotate(0);
+}
+
+.layer4 .first {
+    text-align: center;
+    padding-top: 108px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 45px; 
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.layer4 .first img{
+    width: 150px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 9px;
+}
+
+.layer4 .first .name {
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: -1.08px;
+    color: rgba(31, 40, 131, 1);
+}
+
+.layer4 .first .role {
+    font-weight: lighter;
+    font-size: 28px; 
+    letter-spacing: -1.08px; 
+    color: rgba(53, 158, 255, 1);
+}
+
+.layer4 .first .com {
+    font-weight: lighter;
+    font-size: 27px;
+    letter-spacing: -1.08px;
+    color: rgba(38, 46, 63, 1);
+}
+
+.layer4 .second {
+    text-align: center;
+    padding-top: 108px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 45px; 
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.layer4 .second img{
+    width: 150px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.layer4 .second .name {
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: -1.08px;
+    color: rgba(31, 40, 131, 1);
+}
+
+.layer4 .second .role {
+    font-weight: lighter;
+    font-size: 28px; 
+    letter-spacing: -1.08px; 
+    color: rgba(53, 158, 255, 1);
+}
+
+.layer4 .second .com {
+    font-weight: lighter;
+    font-size: 27px;
+    letter-spacing: -1.08px;
+    color: rgba(38, 46, 63, 1);
+}
+.layer5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 27px;
+    padding-left: 9px;
+    padding-right: 9px;
+    list-style: none;
+    position: relative;
+}
+
+.layer5 .forlay5 {
+    display: flexbox;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    border-radius: 27px; 
+    background-color: #EEF6FF;
+    margin: 54px; 
+    padding-top: 30px;
+    padding-bottom: 9px;
+}
+
+.layer5 .schedule {
+    position: absolute;
+    font-size: 50px;
+    background: linear-gradient(111.88deg, #0E044B -24.36%, #2C309B 66.53%, #89E8FD 142.57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    letter-spacing: -0.54px;
+    line-height: 50px;
+    padding-left: 100px;
+    font-weight: bold;
+}
+
+.layer5 .schedule::before {
+    content: '';
+    border-radius: 5px;
+    position: absolute;
+    left: 60px;
+    top: -10px;
+    width: 8px;
+    height: 65px;
+    background-color: #25DF6C;
+    transform: rotate(0);
+}
+
+.layer5 .line {
+    width: 100%; 
+    height: 5px; 
+    background-color: white;
+    margin-top: 80px;
+}
+
+.layer5 h2 {
+    display: inline-block;
+    border-radius: 54px;
+    background: rgba(12, 197, 83, 1);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+    font-family: 'Noto Sans Thai';
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 54px;
+    margin-right: auto;
+}
+
+
+.layer5 h2 span {
+    padding-left: 0px;
+    color: rgba(200, 255, 212, 1);
+}
+
+.layer5 span {
+    font-size: 20px;
+    color: rgba(38, 46, 63, 1);
+    padding-left: 100px;
+    padding-top: 0px;
+}
+
+.layer5 li {
+    position: relative;
+    color: #262E3F;
+    font-weight: lighter;
+    font-size: 20px; 
+    letter-spacing: 0.54px;
+    padding-left: 100px;
+    line-height: 50px;
+}
+
+
+.layer5 li::before {
+    content: '';
+    position: absolute;
+    left: 70px;
+    top: 20px;
+    width: 10px;
+    height: 10px;
+    background-color: #25DF6C;
+    transform: rotate(45deg);
+}
+
+.layer6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 27px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.layer6 .forlay6 {
+    display: inline-block;
+    border-radius: 25px;
+    background: linear-gradient(230.87deg, #5D97E3 -7.19%, #0C2192 66.6%);
+    margin: 54px;
+    padding: 37.8px;
+}
+
+.layer6 h1 {
+    color: rgba(255, 255, 255, 1);
+    padding-left: 300px;
+    padding-right: 27px;
+    padding-top: 10px;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.layer6 h2 {
+    color: rgba(255, 255, 255, 1);
+    padding-left: 300px;
+    padding-right: 27px;
+    padding-top: 18px;
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    line-height: 54px;
+}
+
+.layer6 button {
+    margin-top: 50px;
+    margin-left: 300px;
+    display: inline-block;
+    border-radius: 50px;
+    background: rgba(53, 158, 255, 1);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+    font-family: 'Noto Sans Thai';
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: none;
+}
+
+.layer6 img {
+    display: flex;
+    border-radius: 27px;
+    float: right;
+    width: 500px;
+    height: auto;
+}
+
+.layer6 .icon {
+    display: flex;
+    float: left;
+    width: 125px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.layer7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.layer7 .forlay7 {
+    border-radius: 27px;
+    background: linear-gradient(0deg, rgba(21, 47, 155, 0) 38.25%, #34EA67 100%);
+    transform: rotate(180deg);
+    margin: 54px;
+    padding: 94.5px;
+}
+
+.layer7 .forlay7-2 {
+    display: flexbox;
+    border-radius: 27px;
+    background: #FFFFFF;
+    transform: rotate(180deg);
+    margin: -90px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.layer7 h1 {
+    position: absolute;
+    font-size: 50px;
+    background: linear-gradient(111.88deg, #0E044B -24.36%, #2C309B 66.53%, #89E8FD 142.57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    letter-spacing: -0.1px;
+    line-height: 60px;
+    font-weight: bold;
+    padding-left: 100px;
+}
+
+.layer7 .reward {
+    text-align: left;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 72px;
+    padding-left: 100px;
+    padding-right: 200px;
+}
+
+.layer7 img{
+    width: 150px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.layer7 .item {
+    font-family: 'Poppins';
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #262E3F;
+    line-height: 90px;
+}
+
+
+.layer7 .cap {
+    font-family: 'Poppins';
+    padding-top: 100px;
+    font-size: 36px;
+    font-weight: lighter;
+    letter-spacing: -1px;
+    color: rgba(110, 119, 136, 1);
+    line-height: 20px;
+}
+
+.layer7 span {
+    font-family: 'Noto Sans Thai';
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: rgba(110, 119, 136, 1);
+    line-height: 40px;
+}
+
+.layer8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(360deg, #0072F9 4.84%, #C1E9FF 13.78%, rgba(255, 255, 255, 0.96) 52.31%, rgba(255, 255, 255, 0) 83.81%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.layer8 H1 {
+    font-size: 20px;
+    color: #0C2292;
+    letter-spacing: 4px;
+    line-height: 20px;
+    padding-top: 25px;
+}
+
+.layer8 H1 span {
+    font-size: 20px;
+    color: #6E7788;
+    padding-left: 5px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+}
+
+.layer8 h2 {
+    font-size: 18px;
+    color: #262E3F;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.layer8 .btn {
+    display: inline-block;
+    border-radius: 10px;
+    background: linear-gradient(115.71deg, #0BB64C 2.75%, #27D96B 79.77%);
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+    font-family: 'Noto Sans Thai';
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+}
+
+.layer8 .btn:hover {
+    color: gray;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #6E7788;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+
+footer .name {
+    color: #3138A0;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 2px;
+    padding-left: 20px;
+}
+
+footer .tell {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 20px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+
+footer img{
+    padding-left: 40px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .layer1{
+        background: flex;
+        background-size: 700px auto;
+    }
+    .layer1 H1 {
+        font-size: 25px;
+        padding-top: 20px;
+        padding-left: 15px;
+        letter-spacing: 3px;
+        line-height: 30px;
+    }
+
+    .layer1 H1 span {
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
+    
+    .layer1 .line {
+        border-radius: 2px;
+        width: 60px; 
+        height: 3px; 
+        margin-left: 105px;
+    }
+
+    .layer1 h3 {
+        font-size: 18px;
+        padding-left: 15px;
+        letter-spacing: 3px;
+    }
+
+    .layer1 H2 {
+        font-size: 20px;
+        padding-left: 15px;
+        letter-spacing: 5px;
+    }
+
+    .layer1 .day {
+        font-size: 20px;
+        padding-left: 15px;
+        letter-spacing: 2px;
+    }
+
+    .layer1 .day span {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .layer1 .time {
+        font-size: 11.5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 15px;
+    }
+
+    .layer1 .where {
+        font-size: 11px;
+        padding-left: 25px;
+        letter-spacing: 0.1px;
+    }
+    .layer1 .at {
+        font-size: 9px;
+        padding-left: 23px;
+        letter-spacing: 0.1px;
+    }
+
+    .layer1 .tophead {
+        font-size: 11px;
+        padding-top: 10px;
+        padding-left: 15px;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+
+    .layer1 .content {
+        font-size: 9px;
+        padding-left: 15px;
+        padding-right: 50px;
+        margin-right: 40px;
+    }
+
+    .layer1 nav {
+        padding-top: 1px;
+    }
+
+    .layer1 .nav-logo a {
+        margin: 0 15px;
+        line-height: 30px;
+    }
+
+    .layer1 .nav-logo a img {
+        width: 30px;
+    }
+
+    .layer2{
+        background-size: auto auto;
+    }
+
+    .layer2 H1 {
+        font-size: 12px;
+        padding-top: 10px;
+        letter-spacing: 2px;
+    }
+
+    .layer2 H1 span{
+        font-size: 11px;
+    }
+
+    .layer2 h2 {
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+
+    .layer2 .btn {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+    }
+
+    .layer3{
+        padding-top: 20px;
+        padding-left: 15px;
+    }
+
+    .layer3 H1 {
+        font-size: 15px;
+        letter-spacing: 0.2px;
+    }
+    .layer3 H1 span{
+        font-size: 15px;
+    }
+
+    .layer3 li {
+        font-size: 11px;
+        padding-left: 30px;
+        padding-right: 30px;
+        line-height: 30px;
+    }
+
+    .layer4 li {
+        font-size: 30px;
+        letter-spacing: -0.3px;
+        line-height: 60px;
+        padding-left: 20px;
+    }
+
+    .layer4 li::before {
+        left: 30px;
+        top: 7px;
+        width: 4px;
+        height: 40px;
+    }
+
+    .layer4 .first,
+    .layer4 .second {
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .layer4 .first img{
+        width: 120px;
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 9px;
+    }
+
+    .layer4 .first .name {
+        font-size: 20px;
+        letter-spacing: -1.08px;
+    }
+    
+    .layer4 .first .role {
+        font-size: 18px; 
+        letter-spacing: -1.08px; 
+    }
+    
+    .layer4 .first .com {
+        font-size: 17px;
+        letter-spacing: -1.08px;
+    }
+
+    .layer4 .second img{
+        width: 120px;
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 9px;
+    }
+
+    .layer4 .second .name {
+        font-size: 20px;
+        letter-spacing: -1.08px;
+    }
+    
+    .layer4 .second .role {
+        font-size: 18px; 
+        letter-spacing: -1.08px; 
+    }
+    
+    .layer4 .second .com {
+        font-size: 17px;
+        letter-spacing: -1.08px;
+    }
+
+    .layer5 .forlay5 {
+        border-radius: 10px; 
+        margin: 24px; 
+        padding-top: 10px;
+        padding-bottom: 2px;
+    }
+
+    .layer5 .schedule {
+        font-size: 30px;
+        letter-spacing: -0.3px;
+        line-height: 60px;
+        padding-left: 50px;
+    }
+    
+    .layer5 .schedule::before {
+        left: 30px;
+        top: 7px;
+        width: 4px;
+        height: 40px;
+    }
+   
+    .layer5 h2 {
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 10px;
+        letter-spacing: 0.5px;
+    }
+
+    .layer5 span {
+        display: flex;
+        font-size: 15px;
+        padding-left: 10px;
+        padding-bottom: 8px;
+    }
+
+    .layer5 li {
+        font-size: 13px;
+        padding-left: 50px;
+        padding-right: 30px;
+        line-height: 30px;
+    }
+
+    .layer5 li::before {
+        left: 20px;
+        top: 10px;
+        width: 10px;
+        height: 10px;
+    }
+
+    .layer6 .forlay6 {
+        display: inline-block;
+        border-radius: 25px;
+        background: linear-gradient(230.87deg, #5D97E3 -7.19%, #0C2192 66.6%);
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .layer6 img {
+        display: flex;
+        border-radius: 5px;
+        float: right;
+        width: 90px;
+        height: 100px;
+    }
+
+    .layer6 .icon {
+        display: flex;
+        float: left;
+        width: 30px;
+        height: auto;
+        margin-top: 15px;
+        margin-left: 0px;
+        margin-right: 1px;
+    }
+
+    .layer6 h1 {
+        font-size: 10px;
+        padding-left: 30px;
+        padding-right: 15px;
+    }
+
+    .layer6 h2 {
+        padding-left: 10px;
+        padding-right: 20px;
+        padding-top: 5px;
+        font-size: 10px;
+        letter-spacing: 2px;
+        line-height: 40px;
+    }
+
+    .layer6 button {
+        margin-top: 30px;
+        margin-left: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 18px;
+    }
+
+    .layer7 .forlay7 {
+        border-radius: 18px;
+        margin: 25px;
+        padding: 94.5px;
+    }
+    
+    .layer7 .forlay7-2 {
+        border-radius: 18px;
+        margin: -90px;
+    }
+
+    .layer7 h1 {
+        font-size: 20px;
+        letter-spacing: -0.1px;
+        line-height: 20px;
+        padding-left: 10px;
+    }
+
+    .layer7 .reward {
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        line-height: 20px;
+    }
+
+    .layer7 .item {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: 11px;
+        line-height: 40px;
+    }
+
+    .layer7 .cap {
+        padding-top: 60px;
+        font-size: 11px;
+        line-height: 30px;
+    }
+
+    .layer7 span {
+        font-size: 11px;
+    }
+
+    .layer7 img{
+        width: 75px;
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .layer8 H1 {
+        font-size: 12px;
+        letter-spacing: 3px;
+        line-height: 16px;
+        padding-top: 20px;
+    }
+
+    .layer8 H1 span {
+        font-size: 11px;
+        padding-left: 5px;
+        letter-spacing: 3px;
+    }
+
+    .layer8 h2 {
+        font-size: 11px;
+        margin-bottom: 15px;
+    }
+
+    .layer8 .btn {
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    footer {
+        font-size: 8px;
+        letter-spacing: 1px;
+        padding: 15px;
+    }
+
+    footer .name {
+        font-size: 8px;
+        letter-spacing: 1px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    footer .tell {
+        font-size: 8px;
+        letter-spacing: 1px;
+        padding-left: 4.9px;
+    }
+
+    footer img {
+        width: 20px;
+        height: auto;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    .layer1{
+        background: flex;
+        background-size: 850px auto;
+    }
+    .layer1 H1 {
+        font-size: 50px;
+        padding-top: 30px;
+        padding-left: 20px;
+        letter-spacing: 6px;
+        line-height: 50px;
+    }
+
+    .layer1 H1 span {
+        font-size: 50px;
+        letter-spacing: 8.8px;
+    }
+
+    .layer1 .line {
+        border-radius: 2px;
+        width: 60px; 
+        height: 3px; 
+        margin-left: 165px;
+    }
+
+    .layer1 h3 {
+        font-size: 30px;
+        padding-left: 20px;
+        letter-spacing: 3px;
+    }
+
+    .layer1 H2 {
+        font-size: 35px;
+        padding-left: 20px;
+        letter-spacing: 5px;
+    }
+
+    .layer1 .day {
+        font-size: 30px;
+        padding-left: 20px;
+        letter-spacing: 2px;
+    }
+
+    .layer1 .day span {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .layer1 .time {
+        font-size: 17px;
+        padding-left: 6px;
+        padding-right: 6px;
+        margin-left: 20px;
+    }
+
+    .layer1 .where {
+        font-size: 20px;
+        padding-left: 30px;
+        letter-spacing: 0.1px;
+    }
+    .layer1 .at {
+        font-size: 18px;
+        padding-left: 33px;
+        letter-spacing: 0.1px;
+    }
+
+    .layer1 .tophead {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-left: 20px;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+
+    .layer1 .content {
+        font-size: 12px;
+        padding-left: 20px;
+        padding-right: 100px;
+        margin-right: 100px;
+    }
+
+    .layer1 nav {
+        padding-top: 5px;
+    }
+
+    .layer1 .nav-logo a {
+        margin: 0 20px;
+        line-height: 30px;
+    }
+
+    .layer1 .nav-logo a img {
+        width: 50px;
+    }
+
+    .layer2{
+        background-size: auto auto;
+    }
+
+    .layer2 H1 {
+        font-size: 15px;
+        padding-top: 12px;
+        letter-spacing: 2px;
+    }
+
+    .layer2 H1 span{
+        font-size: 14px;
+    }
+
+    .layer2 h2 {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    .layer2 .btn {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+    }
+
+    .layer3{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .layer3 H1 {
+        font-size: 20px;
+        letter-spacing: 0.2px;
+    }
+    .layer3 H1 span{
+        font-size: 20px;
+    }
+
+    .layer3 li {
+        font-size: 18px;
+        padding-left: 30px;
+        padding-right: 30px;
+        line-height: 30px;
+    }
+
+    .layer4 li {
+        font-size: 30px;
+        letter-spacing: -0.3px;
+        line-height: 60px;
+        padding-left: 20px;
+    }
+
+    .layer4 li::before {
+        left: 30px;
+        top: 7px;
+        width: 4px;
+        height: 40px;
+    }
+
+    .layer4 .first,
+    .layer4 .second {
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .layer4 .first img{
+        width: 120px;
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 9px;
+    }
+
+    .layer4 .first .name {
+        font-size: 20px;
+        letter-spacing: -1.08px;
+    }
+    
+    .layer4 .first .role {
+        font-size: 18px; 
+        letter-spacing: -1.08px; 
+    }
+    
+    .layer4 .first .com {
+        font-size: 17px;
+        letter-spacing: -1.08px;
+    }
+
+    .layer4 .second img{
+        width: 120px;
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 9px;
+    }
+
+    .layer4 .second .name {
+        font-size: 20px;
+        letter-spacing: -1.08px;
+    }
+    
+    .layer4 .second .role {
+        font-size: 18px; 
+        letter-spacing: -1.08px; 
+    }
+    
+    .layer4 .second .com {
+        font-size: 17px;
+        letter-spacing: -1.08px;
+    }
+
+    .layer5 .forlay5 {
+        border-radius: 10px; 
+        margin: 24px; 
+        padding-top: 10px;
+        padding-bottom: 2px;
+    }
+
+    .layer5 .schedule {
+        font-size: 30px;
+        letter-spacing: -0.3px;
+        line-height: 60px;
+        padding-left: 50px;
+    }
+    
+    .layer5 .schedule::before {
+        left: 30px;
+        top: 7px;
+        width: 4px;
+        height: 40px;
+    }
+   
+    .layer5 h2 {
+        font-size: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: 20px;
+        letter-spacing: 0.5px;
+    }
+
+    .layer5 span {
+        display: flex;
+        font-size: 20px;
+        padding-left: 10px;
+        padding-bottom: 8px;
+    }
+
+    .layer5 li {
+        font-size: 18px;
+        padding-left: 50px;
+        padding-right: 30px;
+        line-height: 30px;
+    }
+
+    .layer5 li::before {
+        left: 20px;
+        top: 10px;
+        width: 10px;
+        height: 10px;
+    }
+
+    .layer6 .forlay6 {
+        display: inline-block;
+        border-radius: 25px;
+        background: linear-gradient(230.87deg, #5D97E3 -7.19%, #0C2192 66.6%);
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .layer6 img {
+        display: flex;
+        border-radius: 5px;
+        float: right;
+        width: 200px;
+        height: auto;
+    }
+
+    .layer6 .icon {
+        display: flex;
+        float: left;
+        width: 90px;
+        height: auto;
+        margin-top: 5px;
+        margin-left: 0px;
+        margin-right: 1px;
+    }
+
+    .layer6 h1 {
+        font-size: 25px;
+        padding-left: 30px;
+        padding-right: 15px;
+    }
+
+    .layer6 h2 {
+        padding-left: 10px;
+        padding-right: 20px;
+        padding-top: 5px;
+        font-size: 22px;
+        letter-spacing: 2px;
+        line-height: 40px;
+    }
+
+    .layer6 button {
+        margin-top: 30px;
+        margin-left: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .layer7 .forlay7 {
+        border-radius: 18px;
+        margin: 25px;
+        padding: 94.5px;
+    }
+    
+    .layer7 .forlay7-2 {
+        border-radius: 18px;
+        margin: -90px;
+    }
+
+    .layer7 h1 {
+        font-size: 30px;
+        letter-spacing: -0.1px;
+        line-height: 35px;
+        padding-left: 20px;
+    }
+
+    .layer7 .reward {
+        padding-top: 5px;
+        padding-left: 100px;
+        padding-right: 100px;
+        line-height: 50px;
+    }
+
+    .layer7 .item {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 16px;
+        line-height: 40px;
+    }
+
+    .layer7 .cap {
+        padding-top: 60px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .layer7 span {
+        font-size: 15px;
+    }
+
+    .layer7 img{
+        width: 150px;
+        height: auto;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .layer8 H1 {
+        font-size: 20px;
+        letter-spacing: 3px;
+        line-height: 16px;
+        padding-top: 20px;
+    }
+
+    .layer8 H1 span {
+        font-size: 18px;
+        padding-left: 5px;
+        letter-spacing: 3px;
+    }
+
+    .layer8 h2 {
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+
+    .layer8 .btn {
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    footer {
+        font-size: 18px;
+        letter-spacing: 1px;
+        padding: 15px;
+    }
+
+    footer .name {
+        font-size: 18px;
+        letter-spacing: 1px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    footer .tell {
+        font-size: 18px;
+        letter-spacing: 1px;
+        padding-left: 4.9px;
+    }
+
+    footer img {
+        width: 50px;
+        height: auto;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 769px){
+    .layer1{
+        background: flex;
+        background-size: 1000px auto;
+    }
+    .layer1 H1 {
+        font-size: 50px;
+        padding-top: 30px;
+        padding-left: 20px;
+        letter-spacing: 6px;
+        line-height: 50px;
+    }
+
+    .layer1 H1 span {
+        font-size: 50px;
+        letter-spacing: 8.8px;
+    }
+
+    .layer1 .line {
+        border-radius: 2px;
+        width: 60px; 
+        height: 3px; 
+        margin-left: 165px;
+    }
+
+    .layer1 h3 {
+        font-size: 30px;
+        padding-left: 20px;
+        letter-spacing: 3px;
+    }
+
+    .layer1 H2 {
+        font-size: 35px;
+        padding-left: 20px;
+        letter-spacing: 5px;
+    }
+
+    .layer1 .day {
+        font-size: 30px;
+        padding-left: 20px;
+        letter-spacing: 2px;
+    }
+
+    .layer1 .day span {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .layer1 .time {
+        font-size: 17px;
+        padding-left: 6px;
+        padding-right: 6px;
+        margin-left: 20px;
+    }
+
+    .layer1 .where {
+        font-size: 20px;
+        padding-left: 30px;
+        letter-spacing: 0.1px;
+    }
+    .layer1 .at {
+        font-size: 18px;
+        padding-left: 33px;
+        letter-spacing: 0.1px;
+    }
+
+    .layer1 .tophead {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-left: 20px;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+
+    .layer1 .content {
+        font-size: 12px;
+        padding-left: 20px;
+        padding-right: 100px;
+        margin-right: 100px;
+    }
+
+    .layer1 nav {
+        padding-top: 5px;
+    }
+
+    .layer1 .nav-logo a {
+        margin: 0 20px;
+        line-height: 30px;
+    }
+
+    .layer1 .nav-logo a img {
+        width: 50px;
+    }
+
+    .layer2{
+        background-size: auto auto;
+    }
+
+    .layer2 H1 {
+        font-size: 15px;
+        padding-top: 12px;
+        letter-spacing: 2px;
+    }
+
+    .layer2 H1 span{
+        font-size: 14px;
+    }
+
+    .layer2 h2 {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    .layer2 .btn {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+    }
+
+    .layer3{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .layer3 H1 {
+        font-size: 20px;
+        letter-spacing: 0.2px;
+    }
+    .layer3 H1 span{
+        font-size: 20px;
+    }
+
+    .layer3 li {
+        font-size: 18px;
+        padding-left: 30px;
+        padding-right: 30px;
+        line-height: 30px;
+    }
+
+    .layer4 li {
+        font-size: 30px;
+        letter-spacing: -0.3px;
+        line-height: 60px;
+        padding-left: 20px;
+    }
+
+    .layer4 li::before {
+        left: 30px;
+        top: 7px;
+        width: 4px;
+        height: 40px;
+    }
+
+    .layer4 .first,
+    .layer4 .second {
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .layer4 .first img{
+        width: 120px;
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 9px;
+    }
+
+    .layer4 .first .name {
+        font-size: 20px;
+        letter-spacing: -1.08px;
+    }
+    
+    .layer4 .first .role {
+        font-size: 18px; 
+        letter-spacing: -1.08px; 
+    }
+    
+    .layer4 .first .com {
+        font-size: 17px;
+        letter-spacing: -1.08px;
+    }
+
+    .layer4 .second img{
+        width: 120px;
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 9px;
+    }
+
+    .layer4 .second .name {
+        font-size: 20px;
+        letter-spacing: -1.08px;
+    }
+    
+    .layer4 .second .role {
+        font-size: 18px; 
+        letter-spacing: -1.08px; 
+    }
+    
+    .layer4 .second .com {
+        font-size: 17px;
+        letter-spacing: -1.08px;
+    }
+
+    .layer5 .forlay5 {
+        border-radius: 10px; 
+        margin: 24px; 
+        padding-top: 10px;
+        padding-bottom: 2px;
+    }
+
+    .layer5 .schedule {
+        font-size: 30px;
+        letter-spacing: -0.3px;
+        line-height: 60px;
+        padding-left: 50px;
+    }
+    
+    .layer5 .schedule::before {
+        left: 30px;
+        top: 7px;
+        width: 4px;
+        height: 40px;
+    }
+   
+    .layer5 h2 {
+        font-size: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: 20px;
+        letter-spacing: 0.5px;
+    }
+
+    .layer5 span {
+        display: flex;
+        font-size: 20px;
+        padding-left: 10px;
+        padding-bottom: 8px;
+    }
+
+    .layer5 li {
+        font-size: 18px;
+        padding-left: 50px;
+        padding-right: 30px;
+        line-height: 30px;
+    }
+
+    .layer5 li::before {
+        left: 20px;
+        top: 10px;
+        width: 10px;
+        height: 10px;
+    }
+
+    .layer6 .forlay6 {
+        display: inline-block;
+        border-radius: 25px;
+        background: linear-gradient(230.87deg, #5D97E3 -7.19%, #0C2192 66.6%);
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .layer6 img {
+        display: flex;
+        border-radius: 5px;
+        float: right;
+        width: 200px;
+        height: auto;
+    }
+
+    .layer6 .icon {
+        display: flex;
+        float: left;
+        width: 90px;
+        height: auto;
+        margin-top: 5px;
+        margin-left: 0px;
+        margin-right: 1px;
+    }
+
+    .layer6 h1 {
+        font-size: 25px;
+        padding-left: 30px;
+        padding-right: 15px;
+    }
+
+    .layer6 h2 {
+        padding-left: 10px;
+        padding-right: 20px;
+        padding-top: 5px;
+        font-size: 22px;
+        letter-spacing: 2px;
+        line-height: 40px;
+    }
+
+    .layer6 button {
+        margin-top: 30px;
+        margin-left: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .layer7 .forlay7 {
+        border-radius: 18px;
+        margin: 25px;
+        padding: 94.5px;
+    }
+    
+    .layer7 .forlay7-2 {
+        border-radius: 18px;
+        margin: -90px;
+    }
+
+    .layer7 h1 {
+        font-size: 30px;
+        letter-spacing: -0.1px;
+        line-height: 35px;
+        padding-left: 20px;
+    }
+
+    .layer7 .reward {
+        padding-top: 5px;
+        padding-left: 100px;
+        padding-right: 100px;
+        line-height: 50px;
+    }
+
+    .layer7 .item {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 16px;
+        line-height: 40px;
+    }
+
+    .layer7 .cap {
+        padding-top: 60px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .layer7 span {
+        font-size: 15px;
+    }
+
+    .layer7 img{
+        width: 150px;
+        height: auto;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .layer8 H1 {
+        font-size: 20px;
+        letter-spacing: 3px;
+        line-height: 16px;
+        padding-top: 20px;
+    }
+
+    .layer8 H1 span {
+        font-size: 18px;
+        padding-left: 5px;
+        letter-spacing: 3px;
+    }
+
+    .layer8 h2 {
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+
+    .layer8 .btn {
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    footer {
+        font-size: 18px;
+        letter-spacing: 1px;
+        padding: 15px;
+    }
+
+    footer .name {
+        font-size: 18px;
+        letter-spacing: 1px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    footer .tell {
+        font-size: 18px;
+        letter-spacing: 1px;
+        padding-left: 4.9px;
+    }
+
+    footer img {
+        width: 50px;
+        height: auto;
+        padding-left: 10px;
+    }
+}
